@@ -1,0 +1,36 @@
+.experience {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 678px; */
+}
+.experience-box {
+  margin-top: 40px;
+  max-width: 900px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.experience-box p:nth-child(1) {
+  font: var(--oxygen1);
+  margin: 0;
+}
+.experience-box p:nth-child(2) {
+  font: var(--headline5);
+  margin: 0;
+}
+
+.experience-box img {
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (min-width:768px) {
+  .experience {
+    min-height: 678px;
+  }
+}

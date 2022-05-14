@@ -5,16 +5,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <p>qsdqsds</p>
-      <img src="./images/LOGO.png" width="70" height="20" alt="Logo muy bonito" />
-      <button>Currículum</button>
-    </header>
+    <div class="wrapper">
+      <header class="header">
+        <img
+          src="./images/LOGO.png"
+          width="70"
+          height="20"
+          alt="Logo muy bonito"
+        />
+        <nav class="menu">
+          <ul>
+            <li>
+              <a class="is-active" href="#main">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Proyecto</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">Currículum</button>
+      </header>
+
+      <section aria-label="main" class="hero">
+        <div class="hero-image">
+          <img src="./images/jaume.png" width="338" height="330" alt="">
+        </div>
+        <div class="hero-description">
+          <h1>
+            <span>Hola a todos!</span>
+            <span>Soy Sergio</span>
+          </h1>
+          <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+          <div class="social">
+            <a class="button-icon" href="tel:231454851"><img src="./icons/icon-phone.svg" /></a>
+            <a class="button-icon" href="tel:231454851"><img src="./icons/icon-important_mail.svg" /></a>
+            <a class="button-icon" href="tel:231454851"><img src="./icons/icon-instagram.svg" /></a>
+            <a class="button-icon" href="tel:231454851"><img src="./icons/icon-twitter_squared.svg" /></a>
+          </div>
+          <a href="http://asdas.com" class="button">Descagar curriculum</a>
+        </div>
+      </section>
+      <section class="experience">
+        <div class="experience-box">
+          <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+          <p>Aquí hay algunos que me gustaría compartir.</p>
+          <img src="./icons/icons-down.svg" alt="flecha hacia abajo">
+        </div>
+      </section>
+
+      <div class="testimony">
+        <div class="testimony-image">
+          <img src="./images/leonidas-proyectos.png" alt="">
+        </div>
+        <div class="testimony-description">
+          <a class="testimony-title" target="_blank" href="http://leonidasesteban.com">Leonidasesteban.com</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.
+          </p>
+          <a  target="_blank" href="http://github.com" class="button is-secondary">Ver Código</a>
+          <a  target="_blank" href="http://leonidasesteban.com" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <div class="testimony">
+        <div class="testimony-image">
+          <img src="./images/📱 iPad.png" alt="">
+        </div>
+        <div class="testimony-description">
+          <a class="testimony-title" target="_blank" href="http://leonidasesteban.com">Marvol</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.
+          </p>
+          <a  target="_blank" href="http://github.com" class="button is-secondary">Ver Código</a>
+          <a  target="_blank" href="http://leonidasesteban.com" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <div class="testimony">
+        <div class="testimony-image">
+          <img src="./images/📱 Iphone X.png" alt="">
+        </div>
+        <div class="testimony-description">
+          <a class="testimony-title" target="_blank" href="http://leonidasesteban.com">NetNet</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.
+          </p>
+          <a  target="_blank" href="http://github.com" class="button is-secondary">Ver Código</a>
+          <a  target="_blank" href="http://leonidasesteban.com" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <section class="reference">
+        <div class="reference-container">
+          <img src="./images/leonidas.png" alt="leonidas">
+          <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-logo">
+          <img
+            src="./images/LOGO.png"
+            width="70"
+            height="20"
+            alt="Logo muy bonito"
+          />
+        </div>
+        <div class="social">
+          <a class="button-icon" href="tel:231454851"><img src="./icons/icon-phone.svg" /></a>
+          <a class="button-icon" href="tel:231454851"><img src="./icons/icon-important_mail.svg" /></a>
+          <a class="button-icon" href="tel:231454851"><img src="./icons/icon-instagram.svg" /></a>
+          <a class="button-icon" href="tel:231454851"><img src="./icons/icon-twitter_squared.svg" /></a>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            Hecho con el 💙 por Sergio.
+          </p>
+          <p>
+            Copyright 2021 - Todos los derechos reservados.
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

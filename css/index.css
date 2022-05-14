@@ -1,3 +1,15 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./experience.css";
+@import "./reference.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
+
 :root {
   --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
   --fontBase: 'Poppins', sans-serif;
@@ -10,18 +22,19 @@
   --body2: 14px/22px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
   --caption: 12px/19px var(--fontBase);
+  --oxigenBase: 'Oxygen', sans-serif;
+  --oxygen1: 34px/55px var(--oxigenBase);
+  --oxygen2: bold 34px/55px var(--oxigenBase);
   --purple: #310A90;
   --green: #42E2B8;
+  --white: white;
 }
 
 body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--button);
-  color: var(--green);
+  color: var(--purple);
+  margin: 0;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
