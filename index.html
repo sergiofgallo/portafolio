@@ -17,33 +17,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <img
+            src="./images/LOGO.png"
+            width="70"
+            height="20"
+            alt="Logo muy bonito"
+          />
+          <nav class="menu">
+            <ul>
+              <li>
+                <a class="is-active" href="#main">Hola</a>
+              </li>
+              <li>
+                <a href="#project">Proyecto</a>
+              </li>
+              <li>
+                <a href="#contact">Hablemos</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button">Currículum</button>
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
-      <header class="header">
-        <img
-          src="./images/LOGO.png"
-          width="70"
-          height="20"
-          alt="Logo muy bonito"
-        />
-        <nav class="menu">
-          <ul>
-            <li>
-              <a class="is-active" href="#main">Hola</a>
-            </li>
-            <li>
-              <a href="#project">Proyecto</a>
-            </li>
-            <li>
-              <a href="#contact">Hablemos</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="button">Currículum</button>
-      </header>
-
-      <section aria-label="main" class="hero">
+      <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
-          <img src="./images/jaume.png" width="338" height="330" alt="">
+          <img src="./images/Sergio.png" width="338" height="330" alt="">
         </div>
         <div class="hero-description">
           <h1>
@@ -60,6 +63,7 @@
           <a href="http://asdas.com" class="button">Descagar curriculum</a>
         </div>
       </section>
+
       <section class="experience">
         <div class="experience-box">
           <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
@@ -68,12 +72,12 @@
         </div>
       </section>
 
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project" id="project">
+        <div class="project-image">
           <img src="./images/leonidas-proyectos.png" alt="">
         </div>
-        <div class="testimony-description">
-          <a class="testimony-title" target="_blank" href="http://leonidasesteban.com">Leonidasesteban.com</a>
+        <div class="project-description">
+          <a class="title" target="_blank" href="http://leonidasesteban.com">Leonidasesteban.com</a>
           <p>Accede a más de 120 proyectos que te ayudarán a mejorar
           tus habilidades como desarrollador Front-End.
           </p>
@@ -81,27 +85,21 @@
           <a  target="_blank" href="http://leonidasesteban.com" class="button">Ver Proyecto</a>
         </div>
       </div>
+      <section class="reference">
+        <div class="reference-container">
+          <img src="./images/leonidas.png" alt="leonidas">
+          <p>"Sergio ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </div>
+      </section>
 
-      <div class="testimony">
-        <div class="testimony-image">
+
+      <div class="project">
+        <div class="project-image">
           <img src="./images/📱 iPad.png" alt="">
         </div>
-        <div class="testimony-description">
-          <a class="testimony-title" target="_blank" href="http://leonidasesteban.com">Marvol</a>
-          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
-          tus habilidades como desarrollador Front-End.
-          </p>
-          <a  target="_blank" href="http://github.com" class="button is-secondary">Ver Código</a>
-          <a  target="_blank" href="http://leonidasesteban.com" class="button">Ver Proyecto</a>
-        </div>
-      </div>
-
-      <div class="testimony">
-        <div class="testimony-image">
-          <img src="./images/📱 Iphone X.png" alt="">
-        </div>
-        <div class="testimony-description">
-          <a class="testimony-title" target="_blank" href="http://leonidasesteban.com">NetNet</a>
+        <div class="project-description">
+          <a class="title" target="_blank" href="http://leonidasesteban.com">Marvol</a>
           <p>Accede a más de 120 proyectos que te ayudarán a mejorar
           tus habilidades como desarrollador Front-End.
           </p>
@@ -112,11 +110,53 @@
 
       <section class="reference">
         <div class="reference-container">
-          <img src="./images/leonidas.png" alt="leonidas">
-          <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
-          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+          <img src="./images/Jason.png" alt="leonidas">
+          <p>"Sergio ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+          <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
         </div>
       </section>
+
+      <div class="project" id="impar">
+        <div class="project-image">
+          <img src="./images/📱 Iphone X.png" alt="">
+        </div>
+        <div class="project-description">
+          <a class="title" target="_blank" href="http://leonidasesteban.com">NetNet</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.
+          </p>
+          <a  target="_blank" href="http://github.com" class="button is-secondary">Ver Código</a>
+          <a  target="_blank" href="http://leonidasesteban.com" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <section class="reference">
+        <div class="reference-container">
+          <img src="./images/Marco.png" alt="leonidas">
+          <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+          <p>MARCO CORTEZ / NETNET</p>
+        </div>
+      </section>
+
+      <form action="" method="POST" class="form" id="contact">
+        <h2 class="title">Hablemos</h2>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto,
+        no dude en ponerse en contacto conmigo.</p>
+        <label for="form-name">
+          Nombre Completo
+          <input required name="name" id="form-name" type="text" placeholder="Juan">
+        </label>
+        <label for="form-name">
+          Correo Electrónico
+          <input required name="email" id="form-name" type="email" placeholder="juan@gmail.com">
+        </label>
+        <label for="form-name">
+          Mensaje
+          <textarea name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+        </label>
+        <button class="button" type="submit">Enviar Mensaje</button>
+      </form>
+
       <footer class="footer">
         <div class="footer-logo">
           <img
