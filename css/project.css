@@ -26,7 +26,6 @@
     gap: 32px;
     padding-block-start: 80px;
     padding-block-end: 80px;
-    border: 1px solid red;
   }
   .project-description {
     flex: 1;
